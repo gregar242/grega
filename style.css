@@ -1,0 +1,134 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+body {
+background-color: #160c07;
+}
+
+
+.container {
+  width: 100%;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: repeat(12,1fr)
+}
+
+.box1{
+background-color: #491515;
+width: 80%;
+height: 80vh;
+border-radius: 100px;
+margin: 0 auto;
+background-image: url("images/tarantino.png");
+background-position: left;
+background-size: contain;
+background-repeat: no-repeat;
+grid-column: 1/13;
+margin-top: 125px;
+}
+
+.title {
+margin-left: 43%;
+}
+
+
+.about{
+background-image: url("images/definitionbox.png");
+background-size: cover;
+background-repeat: no-repeat;
+background-position: center;
+height: 505px;
+width: 922px;
+margin-left: 48%;
+overflow: hidden;
+}
+.textpic{
+  text-align: center;
+  margin-top: 5%;
+/*
+.text {
+  height: 405px;
+  width: 822px;
+margin-left: 18%;
+margin-top: 2%;
+font-style: Courier;
+font-size: 35px;
+*/
+}
+
+.box2{
+
+background-color: #491515;
+
+width: 80%;
+height: 80vh;
+border-radius: 100px;
+margin: 200px auto;
+grid-column: 1/13;
+background-image: url("images/photo.png");
+background-position: left center;
+background-size: contain;
+background-repeat: no-repeat;
+}
+
+.photo{
+grid-column: 1/6;
+}
+
+.who{
+grid-column: 6/13;
+text-align: right;
+margin: 50px;
+}
+
+
+.box3{
+
+background-color: #491515;
+
+width: 80%;
+height: 80vh;
+border-radius: 100px;
+margin: 60px auto;
+grid-column: 1/13;
+
+}
+.box3 p{
+font-family: Courier;
+font-size: 100px;
+color: #e5d4c6;
+padding: 100px;
+}
+
+.inline{
+  margin: 120px;
+  overflow: hidden;
+display: inline;
+}
+
+.inline img{
+  overflow: hidden;
+display: inline;
+margin: 10px;
+}
+
+
+
+
+
+/*
+.grid{
+display: grid;
+grid-template-columns: repeat(12,1fr);
+grid-template-rows: repeat(12,1fr);
+}
+
+.logo{
+height: 1166px;
+width: 1013px;
+grid-column: 3/6;
+grid-row: 2/3;
+}
+*/
